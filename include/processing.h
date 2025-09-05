@@ -6,11 +6,11 @@
 #include <stdint.h>
 
 typedef enum log_type {
-    Success = 0,
-    Warning,
-    Error,
-    Fatal,
-    Failed,
+    SUCCESS = 0,
+    WARNING,
+    ERROR,
+    FATAL,
+    FAILED,
 } log_type_t;
 
 /*
